@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Большая синица - Птицы Москвы</title>
+    <link rel="stylesheet" href="bird-styles.css">
+    <style>
+        .bird-image-large {
+            width: 300px;
+            height: 250px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-right: 30px;
+            flex-shrink: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .bird-image-large img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Птицы Москвы</h1>
+        <p>Исследуем удивительный мир пернатых обитателей столицы</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="zimnie.html">Зимние птицы</a></li>
+            <li><a href="letnie.html">Летние птицы</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="bird-detail">
+            <div class="bird-header">
+                <div class="bird-image-large">
+                    <img src="sen.jpg" alt="Сизый голубь">
+                </div>
+                <div class="bird-title">
+                    <h1>Большая синица</h1>
+                    <p class="latin-name">Parus major</p>
+                </div>
+            </div>
+            
+            <div class="bird-info-grid">
+                <div>
+                    <div class="info-section">
+                        <h3>Описание</h3>
+                        <p>Большая синица — яркая, подвижная птица с жёлтой грудкой и чёрным "галстуком", который у самцов доходит до живота, а у самок прерывается. Голова чёрная с белыми щеками, спина зеленоватая, крылья серо-голубые с белой полосой.</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3>Образ жизни</h3>
+                        <p>Синицы ведут оседлый образ жизни, но зимой могут кочевать в поисках корма. Активны днём, ночь проводят в укрытиях. Отличные певцы — их репертуар включает до 40 различных звуков.</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h3>Распространение в Москве</h3>
+                        <p>В Москве большие синицы встречаются во всех парках, скверах и лесопарках. Часто посещают кормушки зимой. Гнездятся в дуплах деревьев, скворечниках и даже в щелях зданий.</p>
+                    </div>
+                </div>
+                
+                <div class="fact-box">
+                    <h3>Интересные факты</h3>
+                    <ul class="fact-list">
+                        <li>Синицы могут висеть вниз головой, добывая пищу</li>
+                        <li>За день съедает количество насекомых, равное своему весу</li>
+                        <li>Зимой объединяются в стайки с другими мелкими птицами</li>
+                        <li>Могут раздалбливать орехи, зажав их в лапках</li>
+                        <li>Одна пара синиц за лето уничтожает до 40 000 насекомых</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="characteristics">
+                <div class="char-item">
+                    <div class="char-value">13-17 см</div>
+                    <div class="char-label">Длина тела</div>
+                </div>
+                <div class="char-item">
+                    <div class="char-value">14-21 г</div>
+                    <div class="char-label">Вес</div>
+                </div>
+                <div class="char-item">
+                    <div class="char-value">15 лет</div>
+                    <div class="char-label">Максимальный возраст</div>
+                </div>
+                <div class="char-item">
+                    <div class="char-value">6-12 яиц</div>
+                    <div class="char-label">Кладка</div>
+                </div>
+            </div>
+            
+            <div class="info-section">
+                <h3>Питание</h3>
+                <p>Летом питается в основном насекомыми и их личинками. Зимой переходит на семена и ягоды. Охотно посещает кормушки, где предпочитает несолёное сало, семечки подсолнечника и орехи.</p>
+            </div>
+            
+            <a href="index.html" class="btn btn-back">← Назад к списку птиц</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Сайт создан учеником 7 класса в рамках проекта "Птицы Москвы"</p>
+        <p>© 2023 Все права защищены</p>
+    </footer>
+</body>
+</html>
